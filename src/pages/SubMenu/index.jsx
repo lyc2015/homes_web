@@ -78,13 +78,13 @@ class SubMenu extends Component {
             key: "お客様-1",
             label: "お客様登録",
             icon: faSave,
-            path: "/submenu/employeeInsertNew",
+            path: "/submenu/customerInsertNew",
           },
           {
             key: "お客様-2",
             label: "お客様検索",
             icon: faSave,
-            path: "/submenu/employeeSearch",
+            path: "/submenu/customerSearch",
           },
         ]
       },
