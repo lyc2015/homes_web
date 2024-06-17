@@ -25,7 +25,7 @@ export default function FromCol({ children, label, value, valueChange, required,
     }
     return (
         // <Col md={4} className='fromCol'>
-            <InputGroup size="sm" className={`${required && 'required-mark'}`}>
+            <InputGroup size="sm" className={`mb-3 ${required && 'required-mark'}`}>
                 <InputGroup.Prepend>
                     <InputGroup.Text>{label}</InputGroup.Text>
                 </InputGroup.Prepend>
