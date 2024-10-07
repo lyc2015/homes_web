@@ -15,3 +15,6 @@ yarn install
 ```bash
 yarn start
 ```
+
+## 3.npm/yarn 启动不了的时候 
+> 把node_modules 删除 重新执行 yarn install 或者 npm install
