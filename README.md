@@ -16,5 +16,12 @@ yarn install
 yarn start
 ```
 
-## 3.npm/yarn 启动不了的时候 
+## 3.查看本地是否下载 node.js 
+> 可以在 コマンドプロンプト 里查看node.js版本 如果无法显示说明电脑里没下载 需要重新下载安装node.js
+
+
+## 4.npm/yarn 启动不了的时候 
 > 把node_modules 删除 重新执行 yarn install 或者 npm install
+
+
+
