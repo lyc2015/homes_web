@@ -226,7 +226,7 @@ class EmployeeInfo extends React.Component {
         }
       })
       .then((result) => {
-        if (result.result) {
+        if (result) {
           this.setState({ loading: true })
           AntMessage.success(successMessage);
           // update redux: all Employee
